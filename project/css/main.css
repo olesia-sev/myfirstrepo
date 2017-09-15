@@ -1,0 +1,57 @@
+body {
+	background-color: #fff;
+}
+
+.header,
+footer {
+	background-color: #1C5BC3;
+}
+
+.contacts,
+footer {
+	color: #fff;
+}
+
+.contacts__phone {
+	font-size: 16px;
+}
+
+.contacts__schedule {
+	font-size: 10px;
+}
+
+.list__text {
+	color: #1C5BC3;
+	font-size: 14px;
+}
+
+.breadcrumbs__item {
+	font-size: 12px;
+}
+
+.crew__name,
+.author,
+.socials__title {
+	font-weight: bold;
+}
+
+.crew__prof {
+	color: #1C5BC3;
+	font-weight: bold;
+}
+
+.crew__discription {
+	text-align: center;
+}
+
+.crew__content {
+	font-size: 13px;
+}
+
+ul {
+	list-style: none;
+}
+
+footer {
+	font-size: 13px;
+}
