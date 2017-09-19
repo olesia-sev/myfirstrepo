@@ -63,6 +63,11 @@ body {
 	font-size: 21px;
 }
 
+.contacts__phone-link {
+	color: #fff;
+	text-decoration: none;
+}
+
 .contacts__schedule {
 	font-size: 14px;
 	text-decoration: underline;
@@ -130,8 +135,6 @@ body {
 }
 
 .breadcrumbs__link--active {
-	font-weight: lighter;
-	font-size: 14px;
 	text-decoration: none;
 	color: #221f1f;
 }
@@ -188,6 +191,33 @@ footer {
 	color: #fff;
 }
 
-.footer__col {
+.footer div {
 	display: inline-block;
+	width: 366px;
+	vertical-align: middle;
+}
+
+.footer__col {
+	padding: 14px 19px 16px 19px;
+}
+
+.footer__text {
+	display: inline-block;
+}
+
+.socials__item {
+	display: inline-block;
+	margin-right: 8px;
+	margin-left: 0;
+}
+
+img.socials__logo {
+	width: 20px;
+	height: 20px;
+	position: 
+}
+
+.loftschool_link {
+	color: #fff;
+	font-weight: bold;
 }
