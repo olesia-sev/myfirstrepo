@@ -1,0 +1,55 @@
+.sidebar {
+	width: 130px;
+	float: left;
+}
+
+.list__item {
+	list-style: none;
+	line-height: 2.5;
+	margin: 0;
+}
+
+.list__link {
+	font-weight: bold;
+	font-size: 12px;
+	color: #1C5BC4;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.list__link:hover {
+	color: #221f1f;
+}
+
+.list__link:before {
+	display: inline-block;
+	content: '';
+	width: 30px;
+	height: 18px;
+	background-repeat: no-repeat;
+	margin-bottom: -3px;
+}
+
+.list__link--main:before {
+	background-image: url(../../img/main_icon.png);
+}
+
+.list__link--main:hover:before {
+	background-image: url(../../img/main_icon_black.png);
+}
+
+.list__link--team:before {
+	background-image: url(../../img/team_icon.png);
+}
+
+.list__link--team:hover:before {
+	background-image: url(../../img/team_icon_black.png);
+}
+
+.list__link--feed:before {
+	background-image: url(../../img/feed_icon.png);
+}
+
+.list__link--feed:hover:before {
+	background-image: url(../../img/feed_icon_black.png);
+}

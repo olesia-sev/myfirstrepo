@@ -1,0 +1,43 @@
+.crew {
+	list-style: none;
+}
+
+.crew__item {
+	width: 240px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 42px;
+	margin-right: 40px;
+}
+
+.crew__avatar {
+	/*border-radius: 50%;*/
+	clip-path: circle();
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 13px;
+}
+
+.crew__avatar-pic {
+	width: 163px;
+	height: 163px;
+}
+
+.crew__name {
+	color: #221f1f;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.crew__prof {
+	color: #1C5BC3;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.crew__content {
+	color: #221f1f;
+	font-weight: lighter;
+	font-size: 14px;
+}

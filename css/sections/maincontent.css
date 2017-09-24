@@ -1,0 +1,120 @@
+
+.breadcrumbs {
+	margin-bottom: 25px;
+	margin-top: 
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+}
+
+.breadcrumbs__item:after {
+	content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #1c5bc3;
+	font-style: italic;
+}
+
+.breadcrumbs__link_active {
+	text-decoration: none;
+	color: #221f1f;
+}
+
+
+.title {
+	font-weight: bold;
+	font-size: 49px;
+	color: #221f1f;
+	margin-left: 35px;
+}
+
+
+.maincontent {
+	width: 900px;
+	float: left;
+}
+
+.page-title {
+	background-image: url("../../img/clouds.png");
+	display: inline-block;
+	width: 879px;
+	height: 353px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	margin: -33px auto 0;
+}
+
+.company-section {
+	margin-left: 70px;
+}
+
+.company-description {
+	width: 712px;
+}
+
+p {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #221f1f;
+}
+
+li {
+	line-height: 1.6;
+}
+
+.booking-info {
+	display: block;
+	width: 704px;
+	min-height: 114px;
+	background-color: #1C5BC4;
+	margin-bottom: 37px;
+}
+
+.booking-info__text {
+	color: #fff;
+	font-size: 18px;
+	font-weight: lighter;
+	padding: 18px 20px;
+}
+
+.booking-info__application-link
+{
+	color: #fff;
+	font-weight: bold;
+}
+
+.booking-info__application-link:hover {
+	text-decoration: none;
+}
+
+.booking-info__phone-link {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.partners {
+	margin-top: 30px;
+}
+
+.partners__logo {
+	display: inline-block;
+	width: 215px;
+	height: 130px;
+	text-align: center;
+	vertical-align: baseline;
+	filter: grayscale(100%);
+
+}
+
+.partners__logo:hover {
+	filter: none;
+}

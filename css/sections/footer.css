@@ -1,0 +1,47 @@
+.footer__col {
+	width: 33.3%;
+	float: left;
+}
+
+.footer__text {
+	text-align: left;
+	padding: 10px;
+}
+
+.footer__logo {
+	text-align: center;
+	padding: 17px;
+}
+
+.socials__title {
+	text-align: right;
+	padding-top: 15px;
+}
+
+.socials__list {
+	text-align: right;
+	margin: 5px auto;
+}
+
+.socials__item {
+	display: inline-block;
+	margin-right: 7px;
+	margin-left: 0;
+}
+
+img.socials__logo {
+	width: 20px;
+	height: 20px;
+	position: 
+}
+
+.author,
+.socials__title,
+.strong {
+	font-weight: bold;
+}
+
+.loftschool_link {
+	color: #fff;
+	font-weight: bold;
+}
