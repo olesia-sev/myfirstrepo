@@ -1,4 +1,9 @@
 
+.crumbs {
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
 .breadcrumbs {
 	margin-bottom: 25px;
 	margin-top: 
@@ -19,8 +24,12 @@
 .breadcrumbs__link {
 	font-weight: lighter;
 	font-size: 14px;
-	color: #1c5bc3;
+	color: #1c5bc4;
 	font-style: italic;
+}
+
+.breadcrumbs__link:hover {
+	text-decoration: none;
 }
 
 .breadcrumbs__link_active {
@@ -33,9 +42,17 @@
 	font-weight: bold;
 	font-size: 49px;
 	color: #221f1f;
-	margin-left: 35px;
+	margin-left: 65px;
 }
 
+.title-main {
+	margin-top: 120px;
+}
+
+.title-team {
+	margin-top: -24px;
+	margin-bottom: 25px;
+}
 
 .maincontent {
 	width: 900px;
@@ -49,7 +66,8 @@
 	height: 353px;
 	overflow: hidden;
 	background-repeat: no-repeat;
-	margin: -33px auto 0;
+	margin: -39px auto 0;
+	margin-bottom: 1px;
 }
 
 .company-section {
@@ -64,25 +82,27 @@ p {
 	font-size: 18px;
 	font-weight: lighter;
 	color: #221f1f;
+	line-height: 1.69;
 }
 
 li {
-	line-height: 1.6;
+	line-height: 2;
 }
 
 .booking-info {
 	display: block;
-	width: 704px;
-	min-height: 114px;
+	width: 701px;
+	min-height: 116px;
 	background-color: #1C5BC4;
-	margin-bottom: 37px;
+	margin-bottom: 53px;
 }
 
 .booking-info__text {
 	color: #fff;
 	font-size: 18px;
 	font-weight: lighter;
-	padding: 18px 20px;
+	padding: 19px 30px;
+	line-height: 1.5;
 }
 
 .booking-info__application-link
@@ -101,20 +121,27 @@ li {
 	text-decoration: none;
 }
 
+.partners-list {
+	margin-left: -63px;
+}
+
 .partners {
-	margin-top: 30px;
+	margin-top: 12px;
 }
 
 .partners__logo {
 	display: inline-block;
-	width: 215px;
-	height: 130px;
+	width: 242px;
+	height: 115px;
 	text-align: center;
 	vertical-align: baseline;
-	filter: grayscale(100%);
-
 }
 
-.partners__logo:hover {
+.partners__img {
+	filter: grayscale(100%);
+	transition: filter .4s linear;
+}
+
+.partners__img:hover {
 	filter: none;
 }

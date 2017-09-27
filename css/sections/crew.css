@@ -2,13 +2,18 @@
 	list-style: none;
 }
 
+.team-section {
+	margin-bottom: 31px;
+}
+
 .crew__item {
-	width: 240px;
+	width: 239px;
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	margin-bottom: 42px;
-	margin-right: 40px;
+	margin-bottom: 68px;
+	margin-right: 27px;
+	line-height: 1.6;
 }
 
 .crew__avatar {
@@ -30,8 +35,12 @@
 	font-size: 18px;
 }
 
+.crew__discription {
+	margin-top: -9px;
+}
+
 .crew__prof {
-	color: #1C5BC3;
+	color: #1C5BC4;
 	font-weight: bold;
 	font-size: 14px;
 }
@@ -39,5 +48,5 @@
 .crew__content {
 	color: #221f1f;
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 12px;
 }

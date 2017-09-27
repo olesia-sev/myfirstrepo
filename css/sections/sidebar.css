@@ -3,9 +3,13 @@
 	float: left;
 }
 
+.list {
+	margin-top: 0;
+}
+
 .list__item {
 	list-style: none;
-	line-height: 2.5;
+	line-height: 2.8;
 	margin: 0;
 }
 
