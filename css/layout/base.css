@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'roboto';
     src: url('../fonts/roboto-light_1-webfont.woff2') format('woff2'),
          url('../fonts/roboto-light_1-webfont.woff') format('woff');
@@ -29,7 +29,7 @@
     font-weight: normal;
     font-style: italic;
 
-}
+}*/
 
 body, html {
 	height: 100%;
@@ -38,7 +38,7 @@ body, html {
 
 body {
 	background-color: #fff;
-	font-family: roboto;
+	font-family: roboto, sans-serif, Arial;
 	margin: 0;
 	line-height: 1.42;
 }
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
     background-color: #1C5BC4;
     height: 77px;

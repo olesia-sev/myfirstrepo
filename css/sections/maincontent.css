@@ -135,11 +135,16 @@ li {
 	height: 115px;
 	text-align: center;
 	vertical-align: baseline;
+	position: relative;
 }
 
 .partners__img {
 	filter: grayscale(100%);
 	transition: filter .4s linear;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 .partners__img:hover {

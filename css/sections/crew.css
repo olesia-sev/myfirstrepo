@@ -7,12 +7,11 @@
 }
 
 .crew__item {
-	width: 239px;
+	width: 30%;
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
 	margin-bottom: 68px;
-	margin-right: 27px;
 	line-height: 1.6;
 }
 
@@ -22,12 +21,14 @@
 	display: inline-block;
 	overflow: hidden;
 	margin-bottom: 13px;
-}
-
-.crew__avatar-pic {
 	width: 163px;
 	height: 163px;
 }
+
+/*.crew__avatar-pic {
+	width: 163px;
+	height: 163px;
+}*/
 
 .crew__name {
 	color: #221f1f;
