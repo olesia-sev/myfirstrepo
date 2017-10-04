@@ -57,3 +57,11 @@
 .list__link--feed:hover:before {
 	background-image: url(../../img/feed_icon_black.png);
 }
+
+.list__link--active {
+	color: black;
+}
+
+.list__link--active:before {
+	background-image: url(../../img/main_icon_black.png);
+}

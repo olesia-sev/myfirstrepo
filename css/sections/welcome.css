@@ -24,7 +24,6 @@ body {
 
 .enter {
   position: relative;
-  border: 2px solid black;
   height: 100%;
 }
 
@@ -62,7 +61,7 @@ body {
 
 .button__text {
   display: inline-block;
-  padding-right: 6px;
+  padding-right: 16px;
 }
 
 .button:after {
@@ -71,6 +70,9 @@ body {
   background: url('../../img/main_icon.png') center center no-repeat;
   width: 15px;
   height: 14px;
+  position: absolute;
+  top: 17px;
+  right: 15px;
 }
 
 .button:hover {
@@ -81,4 +83,9 @@ body {
 
 .button:hover:after {
   background-image: url('../../img/arrow.png');
+}
+
+.fadeInDown {
+  animation-duration: 1s;
+  animation-delay: .7s;
 }
