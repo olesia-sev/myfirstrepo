@@ -46,8 +46,61 @@ button {
     line-height: normal;
     overflow: visible;
     padding: 0;
-    -webkit-appearance: button; /* for input */
+    /*-webkit-appearance: button; /* for input */*/
     -webkit-user-select: none; /* for button */
        -moz-user-select: none;
         -ms-user-select: none;
+}
+
+.droptitle { 
+  cursor: pointer;
+  position: relative;
+}
+
+.droptitle:hover .droptitle__menu {
+  right: 0;
+  left: initial;
+  opacity: 1;
+}
+
+.droptitle__menu {
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 100%;
+  margin-top: 18px;
+  opacity: 0;
+  /* right: 0; */
+  left: -9999px;
+  transition: opacity .6s;
+}
+
+.droptitle__text {
+	color: #221f1f;
+	font-weight: 300;
+	line-height: 23px;
+}
+
+.droptitle__text--color {
+  color: #1C5BC4;
+  font-weight: bold;
+}
+
+.droptitle__menu:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-width: 0px;
+  border-bottom-color: #fff;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: -3px;
+  filter: drop-shadow(0px -2px 1px rgba(0,0,0,0.2));
 }
