@@ -4,7 +4,10 @@
 @import url("./sections/maincontent.css");
 @import url("./sections/crew.css");
 @import url("./sections/footer.css");
-
+@import url("./sections/comments.css");
+@import url("./sections/pagination.css");
+@import url("./sections/form.css");
+@import url("./sections/welcome.css");
 
 
 

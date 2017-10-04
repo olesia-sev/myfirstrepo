@@ -1,0 +1,53 @@
+.comments {
+	margin-top: 40px;
+}
+
+.comments__list {
+	list-style: none;
+}
+
+.comments__item {
+	display: inline-block;
+    width: 880px;
+    margin-bottom: 50px;
+}
+
+.comments__avatar {
+	width: 160px;
+	height: 160px;
+	margin-right: 19px;
+    display: inline-block;
+}
+
+.comments__avatar-pic {
+	border-radius: 50%;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.comments__avatar--no-pic {
+	background-color: #F4F4F4;
+}
+
+.comments__date {
+	font-size: 14px;
+	font-weight: 300;
+	color: #656464;
+}
+
+.comments__client-name {
+	font-size: 18px;
+	font-weight: bold;
+	color: #221f1f;
+}
+
+.comments__text {
+	font-size: 18px;
+	font-weight: 300;
+	color: #221f1f;
+}
+
+.comments__discription {
+	display: inline-block;
+    width: 697px;
+}
