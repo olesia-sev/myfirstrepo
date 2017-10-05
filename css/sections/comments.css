@@ -1,9 +1,14 @@
+.title-comments {
+	margin-top: -24px;
+}
+
 .comments {
-	margin-top: 40px;
+	margin-top: 29px;
 }
 
 .comments__list {
 	list-style: none;
+	margin-left: 30px;
 }
 
 .comments__item {

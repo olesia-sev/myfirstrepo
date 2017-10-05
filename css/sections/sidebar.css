@@ -5,12 +5,14 @@
 
 .list {
 	margin-top: 0;
+	margin-left: -22px;
 }
 
 .list__item {
 	list-style: none;
 	line-height: 2.8;
 	margin: 0;
+	letter-spacing: 2px;
 }
 
 .list__link {
@@ -62,6 +64,14 @@
 	color: black;
 }
 
-.list__link--active:before {
+.list__link--main-active:before {
 	background-image: url(../../img/main_icon_black.png);
+}
+
+.list__link--team-active:before {
+	background-image: url(../../img/team_icon_black.png);
+}
+
+.list__link--feed-active:before {
+	background-image: url(../../img/feed_icon_black.png);
 }
